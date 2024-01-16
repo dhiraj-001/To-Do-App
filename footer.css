@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif&display=swap');
+
+.footer{
+  height: 25rem;
+  background: rgb(41,37,102);
+  background: linear-gradient(335deg, rgba(41,37,102,.8) 0%, rgba(139,65,163,.8) 100%);
+  border-radius: 3px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  
+
+
+}
+.dev-phto{
+  height: 8vw;
+  border-radius: 50%;
+}
+.foot-head{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 2vw;
+  margin-top: 2vw;
+  margin-left: 3vw;
+
+}
+.dev-txt{
+  width: 100%;
+  font-size: 2vw;
+  font-family:"DM Serif display" ;
+  background: rgb(162,41,177);
+background: linear-gradient(335deg, rgba(162,41,177,.6) 0%, rgba(0,0,0,.6) 100%);
+color: antiquewhite;
+text-align: center;
+letter-spacing: 2px;
+margin-top: 3px;
+margin-bottom: 3px;
+
+}
+.icon{
+  height: 15px;
+}
+
+.name{
+  color: antiquewhite;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+.bar{
+  height: 2px;
+  width: 17.5vw;
+  background-color: antiquewhite;
+  margin-bottom: 4px;
+}
+.detailsend{
+  position: absolute;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+.per-dtail{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.per-dtail a{
+  letter-spacing: 1px;
+   color: antiquewhite;
+  text-decoration: none;
+}
+.per-dtail a:hover{
+  cursor: pointer;
+}
+.foot-head{
+  position: relative;
+  height: 12vw;
+  /* border: 2px solid antiquewhite; */
+  width: 40vw;
+  padding-top: 1vw;
+  padding-left: 1vw;
+  box-shadow: 3px 3px 10px 3px rgba(250, 235, 215, 0.556);
+  border-radius: 8px;
+}
+@media screen and (max-width: 1024px){
+  .foot-head{
+    height: 19vw;
+    width: 48vw;
+}
+  }
+  @media screen and (max-width: 768px){
+    .foot-head{
+      height: 25vw;
+      width: 48vw;
+  }
+    }
+    @media screen and (max-width: 425px){
+      .foot-head{
+        height: 36vw;
+    width: 83vw;
+    }
+    .dev-phto{
+      height: 109px;
+    margin-top: 14px;
+    }
+    .name{
+      font-size: 1.2em;
+    }
+    .per-dtail{
+      font-size: 13px;
+    }
+    .icon{
+      height: 10px;
+    }
+    .dev-txt{
+      height: 19px;
+      padding-top: 10px;
+    }
+      }
